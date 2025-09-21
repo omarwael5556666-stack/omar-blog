@@ -19,13 +19,17 @@ Personal Blog project built with Django.
 ## Screenshots
 
 ### Home Page
-![Home Page](path_to_your_screenshot/home.png)
+![Home Page](path_to_your_screenshot/blog-screenshot1.png)
 
 ### Post Detail
-![Post Detail](path_to_your_screenshot/post_detail.png)
+![Post Detail](path_to_your_screenshot/blog-screenshot2_detail.png)
 
-### Create Post
-![Create Post](path_to_your_screenshot/create_post.png)
+### Register Post
+![Register User](path_to_your_screenshot/blog-screenshot3.png)
+
+### login Post
+![Login User](path_to_your_screenshot/blog-screenshot4.png)
+
 
 > استبدل `path_to_your_screenshot/...` بالمسار الفعلي للصور داخل مشروعك.
 
