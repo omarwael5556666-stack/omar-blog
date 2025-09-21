@@ -20,17 +20,16 @@ Personal Blog project built with Django.
 
 ### Home Page
 ![Home Page](screenshots/blog-screenshot1.png)
-
 ### Post Detail
 ![Post Detail](screenshots/blog-screenshot2.png)
-
 ### Register Page
 ![Register Page](screenshots/blog-screenshot3.png)
 
-### Login Page
-![Login Page](screenshots/blog-screenshot4.png)
+### login page
+![Home Page](screenshots/blog-screenshot4.png)
 
----
+
+> استبدل `path_to_your_screenshot/...` بالمسار الفعلي للصور داخل مشروعك.
 
 ## Setup & Installation
 
@@ -65,7 +64,7 @@ python manage.py migrate
 bash
 Copy code
 python manage.py runserver
-Now open your browser at http://127.0.0.1:8000/ to view the blog.
+Open your browser at http://127.0.0.1:8000/ to view the blog.
 
 API Endpoints
 List Posts: /api/posts/
@@ -78,30 +77,4 @@ Update Post: /api/posts/<id>/update/
 
 Delete Post: /api/posts/<id>/delete/
 
-Project Structure
-core/: Main app for managing blog posts and authentication
 
-core/templates/: HTML templates
-
-media/: Uploaded images
-
-db.sqlite3: SQLite database
-
-Dependencies
-Bootstrap & Fontawesome (Frontend)
-
-Django REST Framework (API)
-
-Pillow (Media)
-
-Django Crispy Forms (Forms)
-
-License
-MIT License
-
-Author
-Developed by Omar Wael (based on open-source templates).
-For inquiries: omarwael5556666-stack on GitHub.
-
-pgsql
-Copy code
