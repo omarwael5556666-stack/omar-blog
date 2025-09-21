@@ -16,32 +16,63 @@ Personal Blog project built with Django.
 - Pillow
 - Bootstrap / CSS
 
+## Screenshots
+
+### Home Page
+![Home Page](path_to_your_screenshot/home.png)
+
+### Post Detail
+![Post Detail](path_to_your_screenshot/post_detail.png)
+
+### Create Post
+![Create Post](path_to_your_screenshot/create_post.png)
+
+> استبدل `path_to_your_screenshot/...` بالمسار الفعلي للصور داخل مشروعك.
+
 ## Setup & Installation
-1. Clone the repo:
+
+### 1. Clone the repo
 ```bash
 git clone https://github.com/omarwael5556666-stack/omar-blog.git
-Create a virtual environment:
-
+cd omar-blog
+2. Create a virtual environment
 bash
 Copy code
 python -m venv env
-Activate the environment:
+3. Activate the environment
+Windows:
 
 bash
 Copy code
 env\Scripts\activate
-Install dependencies:
+Mac/Linux:
 
+bash
+Copy code
+source env/bin/activate
+4. Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
-Apply migrations:
-
+5. Apply migrations
 bash
 Copy code
 python manage.py migrate
-Start the development server:
-
+6. Start the development server
 bash
 Copy code
 python manage.py runserver
+Open your browser at http://127.0.0.1:8000/ to view the blog.
+
+API Endpoints
+List Posts: /api/posts/
+
+Retrieve Post: /api/posts/<id>/
+
+Create Post: /api/posts/create/
+
+Update Post: /api/posts/<id>/update/
+
+Delete Post: /api/posts/<id>/delete/
+
+
